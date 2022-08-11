@@ -5,27 +5,22 @@ A MATLAB Package for Partition of Unity Based Signal Interpolation and Approxima
 <br>
 
 <img src="graphPUM.png" width="800"> 
-Fig. 1 Sketch of a Partition of Unity on a simple graph with 8 nodes.
+Fig. 1 Sketch of a Partition of Unity on a simple graph with 10 nodes.
 
 Description of the Code
 -----------------------
 
-The package contains three main parts
+The package contains several *Matlab* scripts and functions for the generation of a partition of unity on graphs
 
-- The main *Matlab* folder contains example scripts and demos on how to use GBFs for the interpolation, regression and classification of graph signals. 
+- The main *Matlab* folder contains example scripts and demos on how to use GBFPUM for the interpolation and regression of graph signals. 
 
-- The subfolder *./core* contains the core code of the package for the generation of the different graphs, the basis functions and the plots. 
-
-- The subfolder *./data* contains several *.mat* files with the node information of the example graphs. 
 
 The example scripts can be divided into two categories:
 
-- The files of the form **GBF_example_ITP_(graph).m** are used to demonstrate how GBFs can be used for the interpolation of graph signals and how GBFs compare to bandlimited interpolation.  
+- The files of the form **example.m** are used to demonstrate how GBFs can be used for the interpolation of graph signals and how GBFs compare to bandlimited interpolation.  
 
-- In the scripts of the form **GBF_example_SSL_(graph).m** supervised and semi-supervised classification based on feature-augmented GBF-kernels is tested on several data sets. 
-
-<img src="img/GBF_SSL_slashedO.png" width="800"> 
-Fig. 2 Classification with supervised (left) and semi-supervised (middle and right) kernel-based methods on the slashed-O data set. 
+<img src="gengraph-minnesota.png" width="800"> 
+Fig. 2 GBFPUM interpolation of a signal on the Minnesota graph. 
 
 
 
