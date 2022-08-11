@@ -10,7 +10,7 @@ Fig. 1 Sketch of a Partition of Unity on a simple graph with 10 nodes.
 Description of the Code
 -----------------------
 
-The package contains several *Matlab* functions for the generation of a partition of unity on graphs and an implementation of a kernel-based interpolation scheme based on Partition of Unity Method.
+The package contains several *MATLAB* functions for the generation of a partition of unity on graphs and an implementation of a kernel-based interpolation scheme based on a Partition of Unity Method (PUM).
 
 - The routines **GBF_Jcenters_greedy.m**, **GBF_domainaugment.m** and **GBF_genPUM.m** are used to generate a partition of unity on the underlying graph 
 
