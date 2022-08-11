@@ -12,16 +12,18 @@ Description of the Code
 
 The package contains several *Matlab* functions for the generation of a partition of unity on graphs and an implementation of a kernel-based interpolation scheme based on Partition of Unity Method.
 
-. 
-
 - The routines **GBF_Jcenters_greedy.m**, **GBF_domainaugment.m** and **GBF_genPUM.m** are used to generate a partition of unity on the underlying graph 
 
 - The routines **GBF_genGBF.m** and **GBF_RLSGBF.m** contain the code for the solution of the local interpolation problems. The function **GBF_RLSGBFPUM.m** calculates the global GBFPUM interpolant or approxiamant of a graph signal.
 
 A simple example for the usage of the routines is provided in the script **example.m**. It demonstrates how a partition of unity is generated on the Minnesota graph and how this partition of unity can be used to merge local GBF approximants to a global interpolation signal.  
 
+<br>
+
 <img src="gengraph-minnesota.png" width="800"> 
 Fig. 2 Result obtained from the example script. It shows the generated partition of unity on the Minnesota graph (right) as well as the global GBFPUM interpolation of a signal (left). 
+
+<br>
 
 
 
