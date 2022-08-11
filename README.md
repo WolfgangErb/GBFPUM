@@ -10,24 +10,25 @@ Fig. 1 Sketch of a Partition of Unity on a simple graph with 10 nodes.
 Description of the Code
 -----------------------
 
-The package contains several *Matlab* scripts and functions for the generation of a partition of unity on graphs
+The package contains several *Matlab* functions for the generation of a partition of unity on graphs and an implementation of a kernel-based interpolation scheme based on Partition of Unity Method.
 
-- The main *Matlab* folder contains example scripts and demos on how to use GBFPUM for the interpolation and regression of graph signals. 
+. 
 
+- The routines **GBF_Jcenters_greedy.m**, **GBF_domainaugment.m** and **GBF_genPUM.m** are used to generate a partition of unity on the underlying graph 
 
-The example scripts can be divided into two categories:
+- The routines **GBF_genGBF.m** and **GBF_RLSGBF.m** contain the code for the solution of the local interpolation problems. The function **GBF_RLSGBFPUM.m** calculates the global GBFPUM interpolant or approxiamant of a graph signal.
 
-- The files of the form **example.m** are used to demonstrate how GBFs can be used for the interpolation of graph signals and how GBFs compare to bandlimited interpolation.  
+A simple example for the usage of the routines is provided in **example.m**. It showh how a partition of unity is generated on the Minnesota graph and how it can be used to merge local GBF approximants to a global interpolation signal.  
 
 <img src="gengraph-minnesota.png" width="800"> 
-Fig. 2 GBFPUM interpolation of a signal on the Minnesota graph. 
+Fig. 2 Result obtained from the script **example.m**. It shows the generated partition of unity and the global GBFPUM interpolation of a signal on the Minnesota graph. 
 
 
 
 Citation and Credits
 --------------------
 
-If you are using this code, please cite the following article: 
+If you are using this code, please cite the following articles: 
 
 *   [1] &nbsp; Cavoretto, R., De Rossi, A., Erb, W. <br>
     <i> Partition of Unity Methods for Signal Processing on Graphs </i> <br>
