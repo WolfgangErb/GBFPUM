@@ -4,8 +4,8 @@ A MATLAB Package for Partition of Unity Based Signal Interpolation and Approxima
 
 <br>
 
-<img src="img/GBF_sensor2_comparison.png" width="800"> 
-Fig. 1 Comparison of GBF interpolation with bandlimited interpolation on a sensor graph. 
+<img src="graphPUM.png" width="800"> 
+Fig. 1 Sketch of a Partition of Unity on a simple graph with 8 nodes.
 
 Description of the Code
 -----------------------
