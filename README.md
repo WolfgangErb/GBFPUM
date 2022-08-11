@@ -33,7 +33,7 @@ If you are using this code, please cite the following article:
     <i> Partition of Unity Methods for Signal Processing on Graphs </i> <br>
     J. Fourier Anal. Appl. 27 (2021), Art. 66  
 
-The corresponding theory on GBFs related to kernel-based interpolation of graph signals is given in 
+The theory on graph basis functions (GBFs) for kernel-based interpolation of graph signals can be found in 
 
 *   [2] &nbsp; Erb, W. <br>
     <i> Graph Signal Interpolation with Positive Definite Graph Basis Functions  </i> <br>
